@@ -1,0 +1,17 @@
+{
+  "name": "Ca-Tech-Auto",
+  "version": "1.0.0",
+  "description": "Vehicles",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "4.13.3",
+    "mysql": "^2.15.0"
+  },
+  "owner": "Michael Grant",
+  "title": "Manager",
+  "devDependencies": {}
+}

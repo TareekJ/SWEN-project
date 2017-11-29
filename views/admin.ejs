@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="./css/admin.css" type="text/css" rel="stylesheet"/ />
+</head>
+<body>
+  <h1> Welcome to the Administrator Page</h1>
+  <img src= "./assets/background2.jpg"/ />
+  <br /><br />
+  <form method="post" action="/search">
+    <p>Vehicle Search: </p> <input id = "search" type = "text" name = "license" placeholder = "license" required><br><br>
+    <br /><br />
+    <button id="admin" type="submit">Search</button>
+  </form>
+    <ul><% cardsList.forEach(function(ui){ %>
+        <li><%= ui.issue %><%= ui.status %></li>
+
+      <% });%>
+    </ul>
+
+
+
+</body>
+</html>

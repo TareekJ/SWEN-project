@@ -1,0 +1,17 @@
+h1{
+  font-size: 100px;
+  font-weight: 450;
+  text-align: top;
+  color: white;
+  font-family: impact;
+}
+
+
+img{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
